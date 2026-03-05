@@ -149,7 +149,11 @@ const app = http.createServer((req, res) => {
       margin: 0;
       }
       h1{
-      padding: 20%;
+      padding: 20% 20% 0% 20%;
+      font-size: 100px;
+      }
+      h2{
+      padding: 0% 20% 10% 20%;
       }
       a{
       text-decoration: none;
@@ -158,9 +162,10 @@ const app = http.createServer((req, res) => {
       </style>
       </head>
       <body>
-      <h1>
+      <h1> 404 </h1>
+      <h2>
       Page Not Found...
-      </h1>
+      </h2>
       <a href="/">Back</a>
       </body>
       </html>`,
